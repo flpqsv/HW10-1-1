@@ -1,0 +1,254 @@
+*{
+    font-family: Arial, serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+body
+{
+    margin: 0;
+}
+
+.product {
+    background: #445162;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+
+}
+.productHeader{
+    margin: 0;
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.headerList{
+    padding-left: 50px;
+}
+
+.firstList{
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 50px;
+    list-style-image: none;
+    background: url("img/checkicon.png") no-repeat 6px 8px;
+    list-style-type: none;
+    height: 30px;
+}
+
+product:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.mainImage{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.about{
+    background: white;
+    color: #445162;
+    margin-bottom: 15pc;
+    margin-left: 3.5pc;
+}
+.aboutHeader{
+    font-size: 30px;
+    color: #333333;
+}
+.pluses{
+    background: #f5f5f5;
+    color: #445162;
+}
+.plusesHeader{
+    font-size: 30px;
+}
+.column{
+    float: left;
+    width: 45%;
+}
+.plusesList{
+    margin-left:0;
+    padding: 0;
+    list-style-image: none;
+    background: url("img/plus.png") no-repeat 6px 8px, url("img/Shapeforplus.png")no-repeat 0px 2px;
+    padding-left: 50px;
+    list-style-type: none;
+    height: 100px;
+    width: 530px;
+}
+.pluses:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.screenshots{
+    background: white;
+    color: #333333;
+    margin-left: 3.5pc;
+}
+.screenshotsHeader{
+    font-size: 30px;
+    color: #445162;
+}
+.screenshotsSubheader{
+    font-size: 24px;
+    color: #445162;
+    margin-left: 210px;
+}
+.column p{
+    margin-left: 210px;
+    margin-bottom: 50px;
+}
+.screenImage{
+    float: left;
+}
+.screenshots:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnReviews{
+    float: left;
+    width: 45%;
+}
+.reviews{
+    background: #f5f5f5;
+    color: #445162;
+    font-size: 14px;
+}
+.reviewsHeader{
+    font-size: 30px;
+    margin-left: 3.5pc;
+}
+.reviewText{
+    margin: 0;
+    background: #ebebeb;
+    font-style: italic;
+    color: #333333;
+    margin-left: 8pc;
+}
+.reviewAuthor{
+    margin: 0;
+    background: #ebebeb;
+    color: #989898;
+    margin-left: 8pc;
+    margin-top: 1pc;
+}
+.reviews:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.oneReview{
+    background: url("img/userpic.png") no-repeat 0px 0px, url("img/bg review.png")no-repeat 80px 0px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+}
+.buy{
+    background: white;
+    color: #445162;
+}
+.buyHeader{
+    font-size: 30px;
+}
+.planColumn1{
+    background: #445162;
+    color: white;
+    font-size: 14px;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 5px;
+    margin-top: 145px;
+}
+.planColumn2{
+    background: #445162;
+    color: white;
+    font-size: 14px;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 5px;
+    margin-top: 65px;
+}
+.planColumn3{
+    background: #445162;
+    color: white;
+    font-size: 14px;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.buy:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.planHeader{
+    font-size: 24px;
+    text-align: center;
+}
+.price{
+    background: white;
+    color: #445162;
+    font-size: 40px;
+    text-align: center;
+    border-style: solid;
+}
+.button{
+    background: white;
+    color: #445162;
+    padding: 8px 100px;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    margin: 20px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.contacts{
+    background: #445162;
+    color: white;
+}
+.contactsHeader{
+    font-size: 30px;
+    text-align: center;
+}
+input[type=text], select, textarea {
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #445162;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.contactForm {
+    width: 25%;
+    float: left;
+    border-radius: 5px;
+    background-color: #445162;
+}
+.contactSocials{
+    width: 35%;
+    float: right;
+    background-color: #445162;
+    margin-left: 10px;
+}
+.contacts:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+button[id=contactsButton]{
+    margin-left: 33%;
+}
+footer{
+    margin-left: 40%;
+    font-family: Arial, serif;
+    font-size: 12px;
+    color: #445162;
+}
